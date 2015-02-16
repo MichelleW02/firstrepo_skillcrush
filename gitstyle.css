@@ -1,0 +1,156 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* Striking Resume Website */
+/* Adding this to GIT for fun*/
+body{
+	background: url('http://www.clockrepair.guru/img/medieval_clock.jpg') repeat 
+	fixed center center;
+	background-size:cover;
+}
+
+a:link {color:#252525;}
+a:visited {color:#252525;}
+a:focus {color:#252525;}
+a:hover {color:#ffffff;}
+a:active {color:#252525;}
+
+#main{
+	background: rgba(255, 255, 255, 0.40);
+	width:350px;
+	height:550px;
+	float:left;
+	position:relative;
+	top: 50px;
+	border-radius: 0 5 5 0px;
+	padding:25 0 25 25px;
+	font-family: 'Libre Baskerville', serif;
+	color:#252525;
+	overflow:auto;
+}
+
+#main h1.title{
+	font-family: 'Libre Baskerville', serif;
+	font-size:28px;
+	font-weight:700;
+	color:#252525;
+	margin:5px;
+}
+#main h2.subtitle{	
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:300;
+	font-style:italic;
+	color:#fff;
+	background: none no-repeat scroll 0 0 #252525;
+	padding:7px;
+	margin: 5 0 5 5px;
+}
+
+#main p{
+	font-size:16px;
+	font-weight:normal;
+	line-height:150%;
+	padding:7px;
+	margin:2 10 2 2px;
+}
+
+#social{
+	position: relative;
+}
+#social li{
+	margin:5 0 0 5px;
+	list-style-type: none;
+	position:absolute;
+	top:0;
+}
+#social li, #social a {
+	height:31px;
+	display:block;
+}
+
+#instagram, #twitter, #dribble {
+	background: url("img/social.png");
+}
+#instagram {
+	left:0px;
+	width:30px;
+	background-position: 0px 0px;
+}
+#instagram:hover {
+	left: 0px;
+	width:30px;
+	height:31px;
+	background-position: 0px -31px;
+}
+
+#twitter {
+	left:35px;
+	width:30px;
+	background-position: 30px 0px;
+}
+#twitter:hover {
+	left:35px;
+	width:30px;
+	height:31px;
+	background-position: 30px -31px;
+}
+
+#dribble {
+	left:70px;
+	width:30px;
+	background-position:62px 0px;
+}
+#dribble:hover {
+	left:70px;
+	width:30px;
+	height:31px;
+	background-position:62px -31px;
+}
+
+
